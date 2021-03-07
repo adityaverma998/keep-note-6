@@ -31,7 +31,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @RestController
 @RequestMapping("/api/v1/auth")
-@EnableSwagger2
 public class UserAuthenticationController {
 
 	/*
