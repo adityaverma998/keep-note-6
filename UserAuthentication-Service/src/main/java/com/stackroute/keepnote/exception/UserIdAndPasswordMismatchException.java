@@ -2,7 +2,12 @@ package com.stackroute.keepnote.exception;
 
 public class UserIdAndPasswordMismatchException extends Exception {
 
-    public UserIdAndPasswordMismatchException(String message) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public UserIdAndPasswordMismatchException(String message) {
         super(message);
     }
 }
