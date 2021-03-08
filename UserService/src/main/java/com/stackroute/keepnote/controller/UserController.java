@@ -26,7 +26,7 @@ import com.stackroute.keepnote.service.UserService;
  * is equivalent to using @Controller and @ResposeBody annotation
  */
 @RestController
-@RequestMapping("/api/v1/user")
+@RequestMapping("api/v1/user")
 public class UserController {
 
 	/*
@@ -35,6 +35,7 @@ public class UserController {
 	 * keyword
 	 */
 
+	
 	UserService service;
 	
 	public UserController() {

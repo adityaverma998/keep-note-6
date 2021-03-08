@@ -118,10 +118,20 @@
             <artifactId>byte-buddy</artifactId>
             <version>1.10.4</version>
         </dependency>
+        
+        
+        
+    
+
+        
+        
     
     </dependencies>
 
     <build>
+    
+    
+    
         <plugins>
         	<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>

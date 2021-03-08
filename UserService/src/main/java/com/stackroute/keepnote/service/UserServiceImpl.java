@@ -33,9 +33,10 @@ public class UserServiceImpl implements UserService {
 	 * This method should be used to save a new user.Call the corresponding method
 	 * of Respository interface.
 	 */
-	@Autowired
+	
 	UserRepository repository;
 
+	@Autowired
 	public UserServiceImpl(UserRepository repository) {
 		this.repository = repository;
 	}
