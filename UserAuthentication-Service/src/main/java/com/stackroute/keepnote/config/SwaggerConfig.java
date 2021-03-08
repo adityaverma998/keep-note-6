@@ -29,7 +29,7 @@ public class SwaggerConfig {
                 .select()
                 .apis(RequestHandlerSelectors
                         .basePackage("com.stackroute.keepnote"))
-                .paths(regex("/api/v1/category.*")).build();
+                .paths(regex("/api/v1.*")).build();
     }
 
 	

@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-
 import com.stackroute.keepnote.exception.UserAlreadyExistsException;
 import com.stackroute.keepnote.exception.UserNotFoundException;
 import com.stackroute.keepnote.model.User;
@@ -19,7 +17,6 @@ import com.stackroute.keepnote.service.UserAuthenticationService;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /*
  * As in this assignment, we are working on creating RESTful web service, hence annotate
