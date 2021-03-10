@@ -42,3 +42,13 @@ services:
        - "8082:8082"
      network_mode: host
      restart: always
+  noteservice:
+     image: noteservice
+     build: 
+       context: noteservice/
+     depends_on:
+       - user-mongo
+     ports:
+       - "8083:8083"
+     network_mode: host
+     restart: always
